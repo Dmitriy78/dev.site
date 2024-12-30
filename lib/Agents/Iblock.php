@@ -9,7 +9,7 @@ class Iblock {
 
     public static $iBlockLogName = 'LOG';
     public static $iBlockLogId;
-    public static $maxCount = 3;
+    public static $maxCount = 10;
 
     public static function clearOldLogs() {
 
