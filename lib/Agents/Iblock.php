@@ -62,11 +62,12 @@ class Iblock {
      */
     public static function getiBlockLogId(): int|bool {
 
-        // !!! не работает в агенте !!!
+        // !!! не работает в агенте без 'CHECK_PERMISSIONS' => 'N' !!!
 //        $iBlock = CIBlock::GetList(
 //                [],
 //                [
 //                    'CODE' => self::$iBlockLogName
+//                    'CHECK_PERMISSIONS' => 'N'
 //                ]
 //        );
 //        $ar_res = $iBlock->GetNext();
